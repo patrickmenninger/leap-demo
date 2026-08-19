@@ -24,7 +24,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'labs/10-jenkins-intro/starter/target/test-reports/*.xml'
+                    junit 'labs/10-jenkins-intro/starter/target/surefire-reports/*.xml'
                 }
             }
         }
